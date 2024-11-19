@@ -1,0 +1,246 @@
+[
+    {
+        "id": 1,
+        "adventureTitle": "Mountain Trek to Everest Base Camp",
+        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "categoryName": "Mountain Treks",
+        "shortDescription": "An exhilarating trek to the iconic Everest Base Camp.",
+        "adventureCost": 1200,
+        "bookingAvailability": "Available",
+        "location": "Nepal",
+        "duration": "14 Days",
+        "adventureLevel": "Challenging",
+        "includedItems": [
+            "Professional Guide",
+            "Meals and Accommodation",
+            "Trekking Permits",
+            "First Aid Kit"
+        ],
+        "ecoFriendlyFeatures": [
+            "Waste Management Initiatives",
+            "Eco-Friendly Lodges",
+            "Reusable Water Stations"
+        ],
+        "maxGroupSize": 12,
+        "specialInstructions": [
+            "Carry a reusable water bottle.",
+            "Prepare for high-altitude conditions."
+        ]
+    },
+    {
+        "id": 2,
+        "adventureTitle": "Ocean Dive at the Great Barrier Reef",
+        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "categoryName": "Ocean Dives",
+        "shortDescription": "Discover vibrant marine life at the world's largest coral reef.",
+        "adventureCost": 800,
+        "bookingAvailability": "Available",
+        "location": "Australia",
+        "duration": "5 Days",
+        "adventureLevel": "Moderate",
+        "includedItems": [
+            "Certified Dive Instructor",
+            "Diving Equipment",
+            "Underwater Photography"
+        ],
+        "ecoFriendlyFeatures": [
+            "Reef-Safe Sunscreen Provided",
+            "Coral Conservation Efforts",
+            "Plastic-Free Practices"
+        ],
+        "maxGroupSize": 10,
+        "specialInstructions": [
+            "Bring a swimsuit and towel.",
+            "Avoid touching marine life."
+        ]
+    },
+    {
+        "id": 3,
+        "adventureTitle": "Wildlife Safari in the Serengeti",
+        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "categoryName": "Wildlife Safaris",
+        "shortDescription": "Explore Africa’s iconic wildlife in their natural habitat.",
+        "adventureCost": 1500,
+        "bookingAvailability": "Limited Availability",
+        "location": "Tanzania",
+        "duration": "7 Days",
+        "adventureLevel": "Easy",
+        "includedItems": [
+            "Experienced Safari Guide",
+            "Binoculars",
+            "Luxury Camping"
+        ],
+        "ecoFriendlyFeatures": [
+            "Solar-Powered Camps",
+            "Minimal Vehicle Emissions",
+            "Community Conservation Support"
+        ],
+        "maxGroupSize": 8,
+        "specialInstructions": [
+            "Wear neutral-colored clothing.",
+            "Do not feed the animals."
+        ]
+    },
+    {
+        "id": 4,
+        "adventureTitle": "Forest Expedition in the Amazon Rainforest",
+        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "categoryName": "Forest Expeditions",
+        "shortDescription": "Dive deep into the lush biodiversity of the Amazon jungle.",
+        "adventureCost": 1000,
+        "bookingAvailability": "Available",
+        "location": "Brazil",
+        "duration": "10 Days",
+        "adventureLevel": "Moderate",
+        "includedItems": [
+            "Nature Expert Guide",
+            "Rainforest Survival Gear",
+            "Meals and Lodging"
+        ],
+        "ecoFriendlyFeatures": [
+            "Eco-Lodges",
+            "Plastic-Free Initiatives",
+            "Wildlife Conservation Support"
+        ],
+        "maxGroupSize": 10,
+        "specialInstructions": [
+            "Carry insect repellent.",
+            "Wear waterproof clothing."
+        ]
+    },
+    {
+        "id": 5,
+        "adventureTitle": "Camping Retreat in the Rockies",
+        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "categoryName": "Camping Retreats",
+        "shortDescription": "Reconnect with nature in the serene Rocky Mountains.",
+        "adventureCost": 600,
+        "bookingAvailability": "Available",
+        "location": "USA",
+        "duration": "3 Days",
+        "adventureLevel": "Easy",
+        "includedItems": [
+            "Camping Gear",
+            "Campfire Meals",
+            "Nature Walks"
+        ],
+        "ecoFriendlyFeatures": [
+            "Zero-Waste Practices",
+            "Compost Toilets",
+            "Wildlife-Friendly Policies"
+        ],
+        "maxGroupSize": 15,
+        "specialInstructions": [
+            "Carry warm clothing.",
+            "Respect quiet hours."
+        ]
+    },
+    {
+        "id": 6,
+        "adventureTitle": "Kayaking Adventure in the Colorado River",
+        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "categoryName": "River Adventures",
+        "shortDescription": "Paddle through stunning canyons along the Colorado River.",
+        "adventureCost": 700,
+        "bookingAvailability": "Limited Availability",
+        "location": "USA",
+        "duration": "4 Days",
+        "adventureLevel": "Moderate",
+        "includedItems": [
+            "Kayak and Safety Gear",
+            "Professional Guide",
+            "Meals and Lodging"
+        ],
+        "ecoFriendlyFeatures": [
+            "Reusable Water Bottles Provided",
+            "Leave No Trace Practices",
+            "Eco-Conscious Meals"
+        ],
+        "maxGroupSize": 8,
+        "specialInstructions": [
+            "Wear a life jacket at all times.",
+            "Avoid loud noises to respect wildlife."
+        ]
+    },
+    {
+        "id": 7,
+        "adventureTitle": "Desert Exploration in the Sahara",
+        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "categoryName": "Desert Exploration",
+        "shortDescription": "Experience the vast beauty of the Sahara Desert.",
+        "adventureCost": 900,
+        "bookingAvailability": "Available",
+        "location": "Morocco",
+        "duration": "5 Days",
+        "adventureLevel": "Moderate",
+        "includedItems": [
+            "Camel Rides",
+            "Traditional Meals",
+            "Desert Camping Gear"
+        ],
+        "ecoFriendlyFeatures": [
+            "Solar Energy Use",
+            "Eco-Friendly Camping",
+            "Local Community Support"
+        ],
+        "maxGroupSize": 12,
+        "specialInstructions": [
+            "Carry sunscreen and a hat.",
+            "Drink plenty of water."
+        ]
+    },
+    {
+        "id": 8,
+        "adventureTitle": "Mangrove Forest Expedition in the Sundarbans",
+        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "categoryName": "Mangrove Forest Expeditions",
+        "shortDescription": "Navigate the intricate waterways of the Sundarbans.",
+        "adventureCost": 500,
+        "bookingAvailability": "Available",
+        "location": "Bangladesh",
+        "duration": "3 Days",
+        "adventureLevel": "Easy",
+        "includedItems": [
+            "Boat Ride",
+            "Local Guide",
+            "Meals and Lodging"
+        ],
+        "ecoFriendlyFeatures": [
+            "Wildlife Conservation Initiatives",
+            "Plastic-Free Practices",
+            "Community Engagement"
+        ],
+        "maxGroupSize": 10,
+        "specialInstructions": [
+            "Avoid using loud devices.",
+            "Carry binoculars for birdwatching."
+        ]
+    },
+    {
+        "id": 9,
+        "adventureTitle": "White-Water Rafting in the Ganges",
+        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "categoryName": "River Adventures",
+        "shortDescription": "Experience thrilling rapids along the sacred Ganges River.",
+        "adventureCost": 450,
+        "bookingAvailability": "Available",
+        "location": "India",
+        "duration": "2 Days",
+        "adventureLevel": "Challenging",
+        "includedItems": [
+            "Rafting Gear",
+            "Certified Guide",
+            "Safety Training"
+        ],
+        "ecoFriendlyFeatures": [
+            "Reusable Equipment",
+            "Eco-Friendly Camps",
+            "River Clean-Up Programs"
+        ],
+        "maxGroupSize": 6,
+        "specialInstructions": [
+            "Wear waterproof shoes.",
+            "Follow safety instructions strictly."
+        ]
+    }
+]
