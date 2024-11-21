@@ -1,4 +1,4 @@
-import ecoTour1 from "../assets/ecoTour1.jpg";
+import ecoTour1 from "../../assets/ecoTour1.jpg";
 
 const AboutUs = () => {
   return (

@@ -1,6 +1,10 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 const Cards = ({ tourData }) => {
+  const { user } = useContext(AuthContext);
+
   return (
     <div className="grid grid-cols-3 gap-12">
       {tourData.map((card) => (
@@ -20,7 +24,7 @@ const Cards = ({ tourData }) => {
               ))}
             </ul>
             <div className="card-actions justify-start">
-              <Link to={`/card/${card.id}`}>
+              <Link to={user ? `/card/${card.id}` : "login"}>
                 <button className="btn bg-[#1E5E38] hover:bg-[#256B48] text-[#FAF9F6]">
                   Explore Now
                 </button>

@@ -23,12 +23,12 @@ const Banner = () => {
   return (
     <section className="w-full">
       <Swiper
-        modules={[Autoplay, Navigation, Pagination]}
+        modules={[Autoplay, Navigation]}
         spaceBetween={0}
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop
         className="w-full h-[500px]" // Adjust height as needed
       >

@@ -1,8 +1,8 @@
 import { useLoaderData } from "react-router-dom";
 import Cards from "../TourDetails/Cards";
-import AboutUs from "../../AboutUs/AboutUs";
-import Testimonials from "../../Testimonial/Testimonial";
 import Slider from "./Slider/Slider";
+import AboutUs from '../AboutUs/AboutUs';
+import Testimonials from '../Testimonial/Testimonial';
 
 const Home = () => {
   const tourdata = useLoaderData();
