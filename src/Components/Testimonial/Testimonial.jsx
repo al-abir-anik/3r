@@ -81,7 +81,7 @@ const Testimonials = () => {
           {/* Button */}
           <button
             onClick={handleNextReview}
-            className="mt-6 px-8 py-3 bg-icy-teal text-black rounded-lg hover:bg-hover-teal transition transform hover:scale-105 shadow-lg"
+            className="btn mt-6 px-8 py-3 bg-icy-teal text-black rounded-lg hover:bg-hover-teal transition transform hover:scale-105 shadow-lg"
           >
             Next Story
           </button>
