@@ -20,7 +20,7 @@ const Routes = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("../../public/TourData.json"),
+        loader: () => fetch("/TourData.json"),
       },
       {
         path: "card/:id",
@@ -29,7 +29,7 @@ const Routes = createBrowserRouter([
             <TourDetails></TourDetails>
           </PrivateRoute>
         ),
-        loader: () => fetch("../../public/TourData.json"),
+        loader: () => fetch("/TourData.json"),
       },
       {
         path: "login",
