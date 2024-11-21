@@ -8,11 +8,11 @@ const Cards = ({ tourData }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
       {tourData.map((card) => (
-        <div className="card bg-base-100 w-80 lg:w-96" key={card.id}>
-          <figure>
+        <div className="card flex flex-col justify-between bg-base-100 w-80 lg:w-96" key={card.id}>
+          <figure className="lg:h-64">
             <img src={card.image} />
           </figure>
-          <div className="card-body">
+          <div className="card-body flex flex-col justify-between">
             <h2 className="card-title text-xl font-semibold">
               {card.adventureTitle}
             </h2>
@@ -25,7 +25,7 @@ const Cards = ({ tourData }) => {
             </ul>
             <div className="card-actions justify-start">
               <Link to={user ? `/card/${card.id}` : "login"}>
-                <button className="btn bg-[#1E5E38] hover:bg-[#256B48] text-[#FAF9F6]">
+                <button className="btn bg-[#80A4C0] hover:bg-[#A3C3D3] text-[#FAF9F6]">
                   Explore Now
                 </button>
               </Link>

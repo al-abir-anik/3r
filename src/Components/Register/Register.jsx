@@ -57,7 +57,7 @@ const Register = () => {
     <div
       className="flex items-center justify-center min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: "url('https://i.ibb.co.com/pWMJZm4/ecoTour1.jpg')",
+        backgroundImage: "url('https://i.ibb.co.com/DzKDLpc/pexels-tove-liu-2127454-3967088.jpg')",
       }}
     >
       <div className="w-full max-w-md p-6 bg-white bg-opacity-75 rounded-lg shadow-lg">
@@ -136,7 +136,7 @@ const Register = () => {
           </p>
 
           <div className="mt-4">
-            <button onClick={handleGoogleSignUp} className="w-full py-2 px-4 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+            <button onClick={handleGoogleSignUp} className="w-full py-2 px-4 bg-[#456289] text-white font-semibold rounded-lg hover:bg-[#80A4C0] focus:outline-none focus:ring-2 focus:ring-[#80A4C0]">
               Sign up with Google
             </button>
           </div>

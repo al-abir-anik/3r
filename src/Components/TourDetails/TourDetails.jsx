@@ -105,7 +105,7 @@ const TourDetails = () => {
 
           <button
             onClick={handleTalkWithExpert}
-            className="btn bg-[#9538] rounded-full text-white font-semibold text-lg px-10"
+            className="btn bg-[#80A4C0] hover:bg-[#a3c3d3] text-white font-semibold text-lg px-10"
           >
             Talk with Expert
           </button>

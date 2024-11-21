@@ -51,7 +51,7 @@ const LogIn = () => {
       className="flex items-center justify-center min-h-screen bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg')",
+          "url('https://i.ibb.co.com/YpPQmYv/pexels-rachel-claire-7263404.jpg')",
       }}
     >
       <div className="w-full max-w-md p-6 bg-white bg-opacity-75 rounded-lg shadow-lg">
@@ -123,7 +123,7 @@ const LogIn = () => {
           {/* Social Login */}
           <div className="mt-4">
             <button
-              className="w-full py-2 px-4 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+              className="w-full py-2 px-4 bg-[#456289] text-white font-semibold rounded-lg hover:bg-[#80A4C0] focus:outline-none focus:ring-2 focus:ring-[#80A4C0]"
               onClick={handleGoogleSignIn}
             >
               Sign in with Google
