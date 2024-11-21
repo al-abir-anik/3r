@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <main>
       <Slider></Slider>
-      <section className="w-3/4 mx-auto mt-14 mb-20 space-y-14">
+      <section className="w-5/6 lg:w-3/4 mx-auto mt-14 mb-20 space-y-14">
         <h2 className="text-[#2E8B57] text-4xl font-bold text-center">Adventure Experiences</h2>
         <div>
           <Cards tourData={tourdata}></Cards>

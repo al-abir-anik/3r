@@ -18,10 +18,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar justify-between h-20 bg-base-100 px-12">
+    <nav className="navbar justify-between h-36 md:h-20 bg-base-100 md:px-12">
       <a className="btn btn-ghost text-xl">EcoTourism</a>
 
-      <ul className="menu menu-vertical lg:menu-horizontal space-x-5">
+      <ul className="menu menu-vertical md:menu-horizontal md:space-x-5">
         <li>
           <NavLink to="/" className="text-xl">
             Home
@@ -36,7 +36,7 @@ const Navbar = () => {
         )}
       </ul>
 
-      <div className="flex-none gap-8">
+      <div className="flex-none md:gap-8">
         {user ? (
           <button onClick={handleSignOut} className="btn">
             Log Out

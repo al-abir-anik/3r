@@ -6,9 +6,9 @@ const Cards = ({ tourData }) => {
   const { user } = useContext(AuthContext);
 
   return (
-    <div className="grid grid-cols-3 gap-12">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
       {tourData.map((card) => (
-        <div className="card bg-base-100 w-96" key={card.id}>
+        <div className="card bg-base-100 w-80 lg:w-96" key={card.id}>
           <figure>
             <img src={card.image} />
           </figure>
