@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom"; // Link for navigation
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 const Register = () => {
-  const { createUser, setUser, updateUserProfile } = useContext(AuthContext);
+  const { createUser, setUser, updateUserProfile,signInWithGoogle } = useContext(AuthContext);
   const navigate = useNavigate();
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -39,6 +39,17 @@ const Register = () => {
       .catch((error) => {
         console.log("ERROR", error.message);
         setErrorMessage(error.message);
+      });
+  };
+
+  const handleGoogleSignUp = () => {
+    signInWithGoogle()
+      .then((result) => {
+        console.log(result);
+        navigate("/");
+      })
+      .catch((error) => {
+        console.log("ERROR", error.message);
       });
   };
 
@@ -125,7 +136,7 @@ const Register = () => {
           </p>
 
           <div className="mt-4">
-            <button className="w-full py-2 px-4 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+            <button onClick={handleGoogleSignUp} className="w-full py-2 px-4 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500">
               Sign up with Google
             </button>
           </div>
