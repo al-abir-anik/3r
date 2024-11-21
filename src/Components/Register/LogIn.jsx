@@ -1,16 +1,19 @@
-import { useContext } from "react";
+import { useContext, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 const LogIn = () => {
   const { signInUser, signInWithGoogle } = useContext(AuthContext);
   const navigate = useNavigate();
+  const [wrongPass, setWrongPass] = useState("");
+  const emailRef = useRef();
 
   const handleLogin = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
 
+    setWrongPass("");
     signInUser(email, password)
       .then((result) => {
         console.log(result);
@@ -19,6 +22,7 @@ const LogIn = () => {
       })
       .catch((error) => {
         console.log("ERROR", error.message);
+        setWrongPass("Invalid Email or Password");
       });
   };
 
@@ -31,6 +35,15 @@ const LogIn = () => {
       .catch((error) => {
         console.log("ERROR", error.message);
       });
+  };
+
+  const getEmailForResetPass = () => {
+    const emailForReset = emailRef.current.value;
+    if (!emailForReset) {
+      setWrongPass("Please provide a valid Email address");
+    } else {
+      navigate("/forgotPass",{ state: { email: emailForReset } });
+    }
   };
 
   return (
@@ -49,26 +62,21 @@ const LogIn = () => {
         {/* Login Form */}
         <form onSubmit={handleLogin} className="space-y-4">
           <div>
-            <label
-              htmlFor="email"
-              className="block text-sm font-medium text-green-600"
-            >
+            <label className="block text-sm font-medium text-green-600">
               Email
             </label>
             <input
               type="email"
               name="email"
+              ref={emailRef}
               className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
               placeholder="Enter your email"
+              required
             />
           </div>
 
-          {/* Password Field */}
           <div>
-            <label
-              htmlFor="password"
-              className="block text-sm font-medium text-green-600"
-            >
+            <label className="block text-sm font-medium text-green-600">
               Password
             </label>
             <input
@@ -76,17 +84,15 @@ const LogIn = () => {
               name="password"
               className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
               placeholder="Enter your password"
+              required
             />
+            {wrongPass && <p className="text-red-600">{wrongPass}</p>}
           </div>
 
-          {/* Forget Password */}
           <div className="flex justify-end">
-            <Link
-              to="/forgot-password"
-              className="text-sm text-green-500 hover:text-green-700"
-            >
+            <button onClick={getEmailForResetPass} className="text-sm text-green-500 hover:text-green-700">
               Forgot Password?
-            </Link>
+            </button>
           </div>
 
           {/* Login Button */}

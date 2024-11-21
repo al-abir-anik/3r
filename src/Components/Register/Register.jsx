@@ -3,15 +3,17 @@ import { Link, useNavigate } from "react-router-dom"; // Link for navigation
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 const Register = () => {
-  const { createUser } = useContext(AuthContext);
+  const { createUser, setUser, updateUserProfile } = useContext(AuthContext);
   const navigate = useNavigate();
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleRegister = (e) => {
     e.preventDefault();
-    const fullname = e.target.fullname.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
+    const fullname = e.target.fullname.value;
+    const photo = e.target.photo.value;
+
     setErrorMessage("");
     if (password.length < 6) {
       setErrorMessage("Password should be 6 characters or longer");
@@ -19,14 +21,18 @@ const Register = () => {
     }
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z]).+$/;
     if (!passwordRegex.test(password)) {
-      setErrorMessage("Password required at least one UPPERCASE and one lowercase");
+      setErrorMessage(
+        "Password required at least one UPPERCASE and one lowercase"
+      );
       return;
     }
 
-
-    createUser(email, password, fullname)
+    createUser(email, password)
       .then((result) => {
-        console.log(result);
+        console.log(result.user);
+        const user = result.user;
+        setUser(user);
+        updateUserProfile({ displayName: fullname, photoURL: photo });
         e.target.reset();
         navigate("/");
       })

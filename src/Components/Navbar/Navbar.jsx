@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./../../AuthProvider/AuthProvider";
 
@@ -26,9 +26,11 @@ const Navbar = () => {
             Home
           </NavLink>
         </li>
-        <li>
-          <NavLink>Update User</NavLink>
-        </li>
+        {user && (
+          <li>
+            <NavLink to="/updateProfile">Update Profile</NavLink>
+          </li>
+        )}
       </ul>
 
       <div className="flex-none gap-8">
@@ -42,21 +44,23 @@ const Navbar = () => {
           </NavLink>
         )}
 
-        <div
-          tabIndex={0}
-          role="button"
-          className="btn btn-ghost btn-circle avatar relative group"
-        >
-          <div className="w-10 rounded-full">
-            <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-          </div>
+        <Link to={"/myProfile"}>
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost btn-circle avatar relative group"
+          >
+            <div className="w-10 rounded-full">
+              <img src={user?.photoURL} />
+            </div>
 
-          {user && (
-            <span className="absolute top-1/2 -translate-y-1/2 right-full mr-2 w-max bg-gray-800 text-white text-sm font-semibold py-2 px-3 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
-              {user?.email}
-            </span>
-          )}
-        </div>
+            {user && (
+              <span className="absolute top-1/2 -translate-y-1/2 right-full mr-2 w-max bg-gray-800 text-white text-sm font-semibold py-2 px-3 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                {user?.displayName}
+              </span>
+            )}
+          </div>
+        </Link>
       </div>
     </nav>
   );

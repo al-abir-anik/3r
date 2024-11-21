@@ -9,13 +9,28 @@ const Banner = () => {
   const slides = [
     {
       id: 1,
-      img: "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
-      alt: "Mount trek Adventure",
+      img: "https://i.ibb.co.com/sgRFjGY/pexels-sabel-blanco-662810-2615031.jpg",
+      alt: "Australia",
     },
     {
       id: 2,
-      img: "https://i.ibb.co.com/pWMJZm4/ecoTour1.jpg",
-      alt: "Ocean Dive Adventure",
+      img: "https://i.ibb.co.com/10rB7Zj/pexels-eclipse-chasers-716719984-18285370.jpg",
+      alt: "Sydney, NSW, Australia",
+    },
+    {
+      id: 3,
+      img: "https://i.ibb.co.com/vxdK6qr/pexels-cornellana-1062063.jpg",
+      alt: "Healy, AK, United States",
+    },
+    {
+      id: 4,
+      img: "https://i.ibb.co.com/MsTDV3j/pexels-quang-nguyen-vinh-222549-2132003.jpg",
+      alt: "Sơn Trà, Đà Nẵng, Vietnam",
+    },
+    {
+      id: 5,
+      img: "https://i.ibb.co.com/68HGVsd/pexels-roodzn-12026138.jpg",
+      alt: "Tulum, Q.R., México",
     },
     
   ];
@@ -30,12 +45,12 @@ const Banner = () => {
         pagination={{ clickable: true }}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop
-        className="w-full h-[500px]" // Adjust height as needed
+        className="w-full h-[40rem]"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
-              className="w-full h-full bg-cover bg-center"
+              className="w-full h-full bg-cover bg-center bg"
               style={{
                 backgroundImage: `url(${slide.img})`,
               }}

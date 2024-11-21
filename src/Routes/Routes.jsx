@@ -7,6 +7,9 @@ import LogIn from "../Components/Register/LogIn";
 import Register from "../Components/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import SecureRoute from "./SecureRoute";
+import MyProfile from "../Components/UserProfile/MyProfile";
+import UpdateProfile from "../Components/UserProfile/updateProfile";
+import Forgotpass from "../Components/Register/Forgotpass";
 
 const Routes = createBrowserRouter([
   {
@@ -37,11 +40,35 @@ const Routes = createBrowserRouter([
         ),
       },
       {
+        path: "forgotPass",
+        element: (
+          <SecureRoute>
+            <Forgotpass></Forgotpass>
+          </SecureRoute>
+        ),
+      },
+      {
         path: "register",
         element: (
           <SecureRoute>
             <Register></Register>
           </SecureRoute>
+        ),
+      },
+      {
+        path: "myProfile",
+        element: (
+          <PrivateRoute>
+            <MyProfile></MyProfile>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "updateProfile",
+        element: (
+          <PrivateRoute>
+            <UpdateProfile></UpdateProfile>
+          </PrivateRoute>
         ),
       },
     ],

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "adventureTitle": "Mountain Trek to Everest Base Camp",
-        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "image": "https://i.ibb.co.com/PjRymxf/pexels-christianbuergi-13449839.jpg",
         "categoryName": "Mountain Treks",
         "shortDescription": "An exhilarating trek to the iconic Everest Base Camp.",
         "adventureCost": 1200,
@@ -30,7 +30,7 @@
     {
         "id": 2,
         "adventureTitle": "Ocean Dive at the Great Barrier Reef",
-        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "image": "https://i.ibb.co.com/hXVTmLZ/pexels-richard-segal-732340-1645028-1.jpg",
         "categoryName": "Ocean Dives",
         "shortDescription": "Discover vibrant marine life at the world's largest coral reef.",
         "adventureCost": 800,
@@ -57,7 +57,7 @@
     {
         "id": 3,
         "adventureTitle": "Wildlife Safari in the Serengeti",
-        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "image": "https://i.ibb.co.com/kq3J6nM/pexels-abdullatif-bukeni-1296376-15838666.jpg",
         "categoryName": "Wildlife Safaris",
         "shortDescription": "Explore Africa’s iconic wildlife in their natural habitat.",
         "adventureCost": 1500,
@@ -84,7 +84,7 @@
     {
         "id": 4,
         "adventureTitle": "Forest Expedition in the Amazon Rainforest",
-        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "image": "https://i.ibb.co.com/3Y39yGN/pexels-quang-nguyen-vinh-222549-5118532.jpg",
         "categoryName": "Forest Expeditions",
         "shortDescription": "Dive deep into the lush biodiversity of the Amazon jungle.",
         "adventureCost": 1000,
@@ -111,7 +111,7 @@
     {
         "id": 5,
         "adventureTitle": "Camping Retreat in the Rockies",
-        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "image": "https://i.ibb.co.com/fSk240p/pexels-merakshot-9349466.jpg",
         "categoryName": "Camping Retreats",
         "shortDescription": "Reconnect with nature in the serene Rocky Mountains.",
         "adventureCost": 600,
@@ -138,7 +138,7 @@
     {
         "id": 6,
         "adventureTitle": "Kayaking Adventure in the Colorado River",
-        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "image": "https://i.ibb.co.com/5L5Rzjh/pexels-firman-malewa-509072024-16166124.jpg",
         "categoryName": "River Adventures",
         "shortDescription": "Paddle through stunning canyons along the Colorado River.",
         "adventureCost": 700,
@@ -165,7 +165,7 @@
     {
         "id": 7,
         "adventureTitle": "Desert Exploration in the Sahara",
-        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "image": "https://i.ibb.co.com/rv5fRGp/pexels-zakaria-hanif-755378-12214734.jpg",
         "categoryName": "Desert Exploration",
         "shortDescription": "Experience the vast beauty of the Sahara Desert.",
         "adventureCost": 900,
@@ -192,7 +192,7 @@
     {
         "id": 8,
         "adventureTitle": "Mangrove Forest Expedition in the Sundarbans",
-        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "image": "https://i.ibb.co.com/X5P7PkN/pexels-rafid-18974570.jpg",
         "categoryName": "Mangrove Forest Expeditions",
         "shortDescription": "Navigate the intricate waterways of the Sundarbans.",
         "adventureCost": 500,
@@ -219,7 +219,7 @@
     {
         "id": 9,
         "adventureTitle": "White-Water Rafting in the Ganges",
-        "image": "https://i.ibb.co.com/0cCNVDq/Mountain-Trek-to-Everest-Base-Camp.jpg",
+        "image": "https://i.ibb.co.com/7Vw1Bhm/pexels-rachel-claire-8112554.jpg",
         "categoryName": "River Adventures",
         "shortDescription": "Experience thrilling rapids along the sacred Ganges River.",
         "adventureCost": 450,
